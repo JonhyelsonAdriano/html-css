@@ -1,0 +1,49 @@
+@charset "UFT-8";
+
+*
+/*<main>	->	div especial, indica que o conteúdo é principal
+
+width	->	largura da caixa
+
+padding	->	espaço lateral do texto dentro da caixa
+
+margin	->	margem do texto (auto, 3px, ...) 
+
+text-align	->	alinhamento do texto (center, end, justify, ...)
+
+border-radius	-> cantos da caixa arredondados
+
+box-shadow / text-shadow	->	sombra da caixa
+
+    - parâmetros: tam. sombra p/ lado, tam. sombra p/ baixo, espalhamento, cor;
+
+	Ex:	box-shadow: 5px 5px 15px rgba(138, 111, 95, 0.616);
+		text-shadow: 1px 1px 2px rgba(129, 78, 5, 0.733);*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right, #9FC131,#DBF227);
+}
+main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #4c53156e;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #D6D58E;
+    text-align: center;
+    text-shadow: 1px 1px 0px #0e240ffd;
+
+}
+h2{
+    color: #042940;
+
+}
+p{
+    text-align: justify;
+}

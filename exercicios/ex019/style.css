@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #113633;
+}
+/* para usar um h1 isolado use o comando id para identificar
+segue o exemplo abaixo
+
+       Tudo que em HTML é id   = em CSS é #(só pode um elemento
+       Tudo que em HTML é class = em CSS é .(pode varios elementos)*/
+h1#principal{
+    text-align: center;
+    background-color: #F2594B;
+    color: white;
+}
+
+h2{
+    color: #086915;
+    
+}
+.basico{
+    color: #16bb32;
+    font-weight: normal;
+
+}
+.intermediario{
+    color: #63215f;
+}
+.avancado{
+    color: #048C7F;
+
+}
+.destaque{
+    background-color: rgb(46, 58, 13);
+}
